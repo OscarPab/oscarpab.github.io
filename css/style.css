@@ -486,6 +486,13 @@ header .container nav a{
         object-fit: cover;
         object-position: center;
     }
+    
+    #inicio .bloque-inicio{
+        margin-left: 0px;
+        width: 100%;
+        left: 0;
+    }
+    
     #servicios .bloque-servicio{
         margin-bottom: 15px;
     }
