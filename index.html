@@ -228,20 +228,24 @@
         <div class="contenedor-form">
             <form action="https://formsubmit.co/oscaripingui@gmail.com" method="POST">
                 <div class="fila mitad">
-                    <input type="text" name="nombre" placeholder="Nombre Completo *" class="input-mitad">
-                    <input type="email" name="email" placeholder="Dirección de Email" class="input-mitad">
+                    <input type="text" id="name" name="name" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" id="email" name="email" placeholder="Dirección de Email" class="input-mitad">
                 </div>
                 <div class="fila">
-                    <input type="text" name="tema" placeholder="Tema..." class="input-full">
+                    <input type="text" id="tema" name="tema" placeholder="Tema..." class="input-full">
                 </div>
                 <div class="fila">
-                    <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
 
                 <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                <input type="hidden" name="_next" value="https://oscarpab.github.io/">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
     </section>
+
 
     <!-- SECCION FOOTER -->
     <footer>
