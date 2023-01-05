@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>LP Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/OP/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/oscar-pablo-morales-zu%C3%B1iga-3372541ab"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/OscarPab"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Oscar Pablo</span>, Desarrollador Web</h2>
+                <p class="descripcion">Desarrallador Front-End, Estudiante de Ingenieria en sistemas computacionales</p>
+                <a href="#portfolio">Ir a Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <div class="margen-mi">
+        <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Oscar Pablo</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Me gustaria empezar mencionando que cuento con experiencia en el desarrollo web tanto como programador Frond-End, como diseñador Ui y UX, manejo tanto el punto de vista del codigo, como el punto de vista de la experiencia del usuario.</p>
+            <p>Carismatico, Leal, Responsable y cuento con Compañerismo.</p>
+            <a href="cv.pdf" download>Descargar CV</a>
+        </div>
+        </section>
+    </div>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PHP</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>Te puedo diseñar una pagina estatica, para que tus clientes puedan ver tu trabajo y contactarte</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Phyton Blockchain</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Flask</li>
+                    <li>Django</li>
+                    <li>Tkinter</li>
+                </ul>
+                <p>Puedo diseñor tu sitio web utilizando codigo php.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Phyton</li>
+                </ul>
+                <p>Puedo brindarte ayuda y aconsejarte, para brindarte una mejor idea de que tipo de pagina buscas y que se necesita</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>PHP</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Diseño UI/UX</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ph"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Adobe Ilustrator</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ai"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Phyton</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="py"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <div class="margen ">
+        <section id="portfolio">
+
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="medidor-imc/index.html">
+                <img src="img/proyecto1.png" alt="">
+                </a>
+                <div class="info">
+                    <h4>Medidor IMC</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="barberia/index.html">
+                <img src="img/proyecto2.png" alt="">
+                </a>
+                <div class="info">
+                    <h4>Pagina Barberia</h4>
+                    <p>Pagina Estatica</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="coca-cola-web/index.html">
+                <img src="img/proyecto3.png" alt="">
+                </a>
+                <div class="info">
+                    <h4>Pagina CocaCola</h4>
+                    <p>Pagina Estatica</p>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/oscaripingui@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" name="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" name="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" name="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>&copy Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/oscar-pablo-morales-zu%C3%B1iga-3372541ab"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/OscarPab"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
